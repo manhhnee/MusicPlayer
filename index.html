@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assests/css/main.css">
+        <link rel="stylesheet"
+            href="./assests/fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+            rel="stylesheet">
+
+        <title>Music Player</title>
+    </head>
+    <body >
+        <main>
+            <div class="playing">
+                <div class="cd">
+                    <div class="thumbnail">
+                        <img class="image" src="./assests/image/img1.jpg">
+                    </div>
+                </div>
+                <p class="songName">how you like that</p>
+                <p class="singer">BlackPink</p>
+                <input type="range" id="progress" class="progress" value="0"
+                    step="0" min="0" max="100" step="0">
+                <div class="time">
+                    <div class="left">00:00</div>
+                    <div class="right">00:00</div>
+                </div>
+                <div class="controls">
+                    <div class="btn btn-random">
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                    <div class="btn btn-prev">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </div>
+                    <div class="btn btn-toggle-play">
+                        <i class="fa-solid fa-pause icon-play"></i>
+                        <i class="fa-solid fa-play icon-pause"></i>
+                    </div>
+                    <div class="btn btn-next">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                    <div class="btn btn-repeat">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </div>
+                <audio src="./assests/music/song1.mp3" id="audio"></audio>
+            </div>
+            <div class="playlist">
+                
+            </div>
+        </main>
+        <script src="./assests/js/main.js"></script>
+    </body>
+</html>
