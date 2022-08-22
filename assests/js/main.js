@@ -103,14 +103,7 @@ const app = {
             path: './assests/music/song10.mp3',
             img: './assests/image/img10.jpg'
         },
-        {
-            id: 11,
-            name: 'Duu-du Duu-du',
-            singer: 'BlackPink',
-            time: '03:29',
-            path: './assests/music/song10.mp3',
-            img: './assests/image/img10.jpg'
-        },
+        
     ],
     render: function () {
         const htmls = this.songs.map((song, index) => {
