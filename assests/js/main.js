@@ -103,6 +103,22 @@ const app = {
             path: './assests/music/song10.mp3',
             img: './assests/image/img10.jpg'
         },
+        {
+            id: 11,
+            name: 'Pink Venom',
+            singer: 'BlackPink',
+            time: '03:29',
+            path: './assests/music/song11.mp3',
+            img: './assests/image/img11.jpg'
+        },
+        {
+            id: 10,
+            name: 'Shut Down',
+            singer: 'BlackPink',
+            time: '02:55',
+            path: './assests/music/song12.mp3',
+            img: './assests/image/img12.jpg'
+        },
         
     ],
     render: function () {
@@ -130,7 +146,6 @@ const app = {
         })
     },
     handleEvents: function () {
-        const cdWidth = thumbnail.offsetWidth;
 
         const cdThumbAnimate = thumbnail.animate([
             { transform: 'rotate(360deg)' }
